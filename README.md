@@ -1,4 +1,5 @@
 # 진짜를 찾아라 활동지 생성기
+[find_the_real_generator](https://dltkddnr04.github.io/find_the_real_generator/)
 
 ## 설명
 이 프로그램은 예수교대한성결교회 총회에서 진행하는 "힐링! S.O.S" 캠프중 "진짜를 찾아라" 게임을 위한 활동지를 생성하는 프로그램입니다.
