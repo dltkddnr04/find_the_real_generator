@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="UTF-8">
+        <title>활동지 생성기</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>활동지 생성기</h1>
+            <p><strong>힐링! S.O.S</strong> 여름성경학교 <strong>진짜를 찾아라</strong> 활동지를 생성합니다.</p>
+        </header>
+
+        <div class="container">
+            <div class="form">
+                <form action="">
+                    <label for="columns">열 수:</label>
+                    <input type="number" id="columns" name="columns" value="20", min="1", placeholder="열">
+                    <label for="rows">행 수:</label>
+                    <input type="number" id="rows" name="rows" value="20", min="1", placeholder="행">
+                    <label for="correct">정답:</label>
+                    <input type="text" id="correct" name="correct" value="힐링", placeholder="정답">
+                    <label for="length">정답 개수:</label>
+                    <input type="number" id="correct_num" name="correct_num" value="1", min="1", placeholder="정답 개수">
+                    <label for="word">오답 단어 목록:</label>
+                    <input type="text" id="word" name="word" value="킬링, 일링, 힐림, 헐랭, 헐렁, 밀링, 힏링", placeholder="반점(,)으로 구분">
+                </form>
+                <button id="generate">생성</button>
+                <button id="copy">복사</button>
+                <button id="copy_without_return">줄내림 없이 복사</button>
+            </div>
+            <div id="output"></div>
+        </div>
+
+        <footer>
+            <p>Copyright &copy; 2024 대신교회 All rights reserved.</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
