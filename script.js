@@ -20,6 +20,11 @@ document.getElementById("generate").addEventListener("click", function() {
         alert("정답의 글자수는 단어 목록의 글자수와 같아야 합니다.");
         return;
     }
+
+    var index = wordList.indexOf(correct);
+    if (index > -1) {
+        wordList.splice(index, 1);
+    }
     
     var randomWordList = [];
     
