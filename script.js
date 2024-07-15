@@ -47,7 +47,7 @@ document.getElementById("generate").addEventListener("click", function() {
             output += "<br>";
         }
         if (randomWordList[k] === correct) {
-            output += "<span style='color:red'>" + randomWordList[k] + "</span>";
+            output += "<span>" + randomWordList[k] + "</span>";
         } else {
             output += randomWordList[k];
         }
